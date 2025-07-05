@@ -1,0 +1,7 @@
+<launch>
+
+  <node pkg="rviz" type="rviz" name="waypoint_nav_plugin" output="screen"
+    args="-d $(find rviz_plugin)/launch/waypoint_nav_plugin.rviz">
+  </node>
+
+</launch>

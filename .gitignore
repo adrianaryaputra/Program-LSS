@@ -1,0 +1,35 @@
+# ROS build folders
+build/
+devel/
+install/
+
+# Log folder
+logs/
+
+# Test results
+test_results/
+
+# Catkin specific files
+.catkin
+.catkin_workspace
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# C++ build files
+*.so
+*.a
+*.o
+
+# IDE specific files
+.vscode/
+.idea/
+*.user
+*.creator

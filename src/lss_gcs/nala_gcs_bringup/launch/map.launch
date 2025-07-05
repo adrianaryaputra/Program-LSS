@@ -1,0 +1,3 @@
+<launch>
+    <node name="map_image" pkg="map_image" type="map_image_node" args="nbenderson 25 -10"/>
+</launch>

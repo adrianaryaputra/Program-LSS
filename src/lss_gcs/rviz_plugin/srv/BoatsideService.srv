@@ -1,0 +1,6 @@
+float32 back_camera_x
+float32 back_camera_y
+float32 front_camera_x
+float32 front_camera_y
+---
+string status
