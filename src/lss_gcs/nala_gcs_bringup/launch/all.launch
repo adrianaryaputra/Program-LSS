@@ -2,4 +2,9 @@
     <include file="$(find rviz_plugin)/launch/rviz.launch"/> 
     <node name="map_image" pkg="map_image" type="map_image_node" args="map_danau8 0 0"/>
     <!-- <node name="map_image" pkg="map_image" type="map_image_node" args="robotika_lama 0 0"/> -->
+
+    <node name="ship_data_logger_node" type="ship_data_logger.py" pkg="lss_gcs_nala_gcs_bringup" output="screen" launch-prefix="bash -c 'cd $(find lss_gcs_nala_gcs_bringup)/../../../../ &amp;&amp; ./ship_data_logger.py'" >
+        <param name="output_file" value="ship_data_logged.csv" /> <!-- File will be created in the CWD, which is the root -->
+        <param name="log_rate_hz" value="1.0" />
+    </node>
 </launch>
