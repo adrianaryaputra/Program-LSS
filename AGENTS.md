@@ -90,4 +90,86 @@ The workspace is organized into several ROS packages:
 -   `mission control_ILOS.py` and `mission control_PLOS.py` (top-level mission execution)
 -   `package.xml` files within each package for dependencies.
 
+## 8. Ship Data Logger (`ship_data_logger.py`)
+
+A Python script named `ship_data_logger.py` is available at the root of this repository. Its purpose is to subscribe to various ROS topics, collect key USV (Unmanned Surface Vehicle) parameters, and log them to a CSV file.
+
+### 8.1. Functionality
+
+-   Initializes a ROS node.
+-   Subscribes to multiple ROS topics to gather data.
+-   Transforms and calculates some parameters (e.g., NED velocities from body velocities, global ground speed from NED velocities).
+-   Writes the collected data row-by-row to a CSV file.
+-   Includes error handling for missing optional dependencies like `tf.transformations` and `numpy`.
+
+### 8.2. How to Run
+
+1.  Ensure `roscore` is running.
+2.  Ensure the necessary data provider nodes are running (e.g., MAVROS publishing IMU, GPS, and local velocity data).
+3.  From the root of the repository (or the `/catkin_ws/src/usv_project_source/` directory if inside the Docker container):
+    ```bash
+    python3 ship_data_logger.py
+    ```
+
+### 8.3. Configuration Parameters (ROS Parameters)
+
+The script can be configured using ROS parameters:
+
+-   `~output_file` (string, default: `ship_data_logged.csv`): The name of the CSV file to be created.
+-   `~log_rate_hz` (float, default: `1.0`): The rate (in Hz) at which data rows will be written to the CSV file.
+
+Example usage with parameters:
+```bash
+rosrun your_package_name ship_data_logger.py _output_file:=my_ship_data.csv _log_rate_hz:=10.0
+# (Assuming ship_data_logger.py is made part of a ROS package to use rosrun)
+# Or, if running directly and parameters are set on the parameter server beforehand:
+# rosparam set /ship_data_logger/output_file "my_ship_data.csv"
+# python3 ship_data_logger.py
+```
+
+### 8.4. Logged Parameters
+
+The following parameters are logged to the CSV file:
+
+| Parameter Name                 | Unit(s)        | Source / Description                                                                 |
+|--------------------------------|----------------|--------------------------------------------------------------------------------------|
+| `timestamp`                    | ISO 8601       | System timestamp when the data row is prepared.                                      |
+| `rudder_angle`                 | (radians?)     | Commanded rudder angle. Source: `/autonomy/pathfollowing` (Twist msg, `angular.z`).    |
+| `thruster_%`                   | (0.0-1.0?)     | Commanded thruster percentage/effort. Source: `/autonomy/pathfollowing` (Twist msg, `linear.x`). |
+| `pos_NED_x`                    | meters         | Position North (Local Frame). Source: `/asv/odom` (Odometry msg).                      |
+| `pos_NED_y`                    | meters         | Position East (Local Frame). Source: `/asv/odom` (Odometry msg).                       |
+| `pos_GLB_lat`                  | degrees        | Latitude (Global Frame WGS84). Source: `/mavros/global_position/global` (NavSatFix msg). |
+| `pos_GLB_long`                 | degrees        | Longitude (Global Frame WGS84). Source: `/mavros/global_position/global` (NavSatFix msg).|
+| `pos_GLB_alt`                  | meters         | Altitude (Global Frame WGS84). Source: `/mavros/global_position/global` (NavSatFix msg). |
+| `acc_BDY_x`                    | m/s^2          | Body Frame X-axis acceleration. Source: `/mavros/imu/data` (Imu msg, `linear_acceleration.x`). |
+| `acc_BDY_y`                    | m/s^2          | Body Frame Y-axis acceleration. Source: `/mavros/imu/data` (Imu msg, `linear_acceleration.y`). |
+| `acc_BDY_z`                    | m/s^2          | Body Frame Z-axis acceleration. Source: `/mavros/imu/data` (Imu msg, `linear_acceleration.z`). |
+| `vel_BDY_x`                    | m/s            | Body Frame X-axis velocity. Source: `/mavros/local_position/velocity_body` (TwistStamped msg). |
+| `vel_BDY_y`                    | m/s            | Body Frame Y-axis velocity. Source: `/mavros/local_position/velocity_body` (TwistStamped msg). |
+| `vel_BDY_z`                    | m/s            | Body Frame Z-axis velocity. Source: `/mavros/local_position/velocity_body` (TwistStamped msg). |
+| `vel_NED_x`                    | m/s            | Calculated North velocity (Local Frame). Derived from `vel_BDY_` and current attitude.   |
+| `vel_NED_y`                    | m/s            | Calculated East velocity (Local Frame). Derived from `vel_BDY_` and current attitude.    |
+| `vel_NED_z`                    | m/s            | Calculated Down velocity (Local Frame). Derived from `vel_BDY_` and current attitude.    |
+| `vel_GLB_ground_speed`         | m/s            | Calculated horizontal ground speed. Derived from `vel_NED_x` and `vel_NED_y`.        |
+| `vel_GLB_course_over_ground`   | radians        | Calculated course over ground. Derived from `vel_NED_x` and `vel_NED_y`. (0 is North, positive East). |
+| `vel_GLB_vertical_speed`       | m/s            | Calculated vertical speed (positive up). Derived as `-vel_NED_z`.                    |
+| `att_NED_roll`                 | radians        | Roll angle (Local Frame). Source: `/mavros/imu/data` (Imu msg, orientation quaternion). |
+| `att_NED_pitch`                | radians        | Pitch angle (Local Frame). Source: `/mavros/imu/data` (Imu msg, orientation quaternion).|
+| `att_NED_yaw`                  | radians        | Yaw angle (Local Frame). Source: `/tf_simple/yaw` (Float64 msg).                       |
+| `attvel_BDY_rollrate`          | rad/s          | Body Frame roll rate. Source: `/mavros/imu/data` (Imu msg, `angular_velocity.x`).      |
+| `attvel_BDY_pitchrate`         | rad/s          | Body Frame pitch rate. Source: `/mavros/imu/data` (Imu msg, `angular_velocity.y`).     |
+| `attvel_BDY_yawrate`           | rad/s          | Body Frame yaw rate. Source: `/mavros/imu/data` (Imu msg, `angular_velocity.z`).       |
+
+**Notes on Units and Conventions:**
+- Radians are used for angles and angular rates unless otherwise specified.
+- NED: North, East, Down coordinate system.
+- BDY: Body frame of the USV (e.g., X forward, Y left/starboard, Z up). Conventions should be verified with vehicle setup.
+- GLB: Global frame, typically WGS84 for Lat/Long/Alt.
+
+### 8.5. Dependencies for `ship_data_logger.py`
+- `rospy`
+- `numpy`
+- `tf.transformations` (optional for roll/pitch from IMU quaternion; if not found, these fields will be blank)
+- Standard ROS message types: `geometry_msgs/Twist`, `geometry_msgs/TwistStamped`, `nav_msgs/Odometry`, `sensor_msgs/NavSatFix`, `sensor_msgs/Imu`, `std_msgs/Float64`.
+
 This detailed AGENTS.md should provide a solid foundation for any future work on this repository.

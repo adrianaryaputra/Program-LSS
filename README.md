@@ -118,32 +118,49 @@ Cara termudah untuk menjalankan proyek ROS di Windows adalah dengan menggunakan 
     source ~/.bashrc
     ```
 
-### 🐳 Docker (Direkomendasikan untuk Portabilitas)
+### 🐳 Docker (Metode Instalasi Utama yang Direkomendasikan)
 
-Menggunakan Docker adalah cara yang sangat baik untuk memastikan lingkungan yang konsisten dan portabel.
+Menggunakan Docker adalah cara yang paling direkomendasikan untuk menjalankan proyek ini, karena memastikan lingkungan yang konsisten, portabel, dan mencakup semua dependensi.
 
-1.  **Instal Docker Engine**: Ikuti panduan resmi untuk sistem operasi Anda: [Install Docker Engine](https://docs.docker.com/engine/install/).
-2.  **Dockerfile**: Sebuah `Dockerfile` akan (atau seharusnya) tersedia di root repositori ini. Jika belum ada, Anda mungkin perlu membuatnya berdasarkan prasyarat proyek (ROS Noetic, dependensi, dll.).
-3.  **Bangun Docker Image**:
+1.  **Prasyarat**:
+    *   Pastikan **Docker Engine** sudah terinstal di sistem Anda. Ikuti panduan resmi: [Install Docker Engine](https://docs.docker.com/engine/install/).
+    *   (Untuk Linux, jika Anda ingin menjalankan aplikasi GUI seperti Rviz dari dalam Docker) Pastikan X server Anda dikonfigurasi untuk menerima koneksi. Biasanya perintah `xhost +local:docker` di terminal host diperlukan sebelum menjalankan container dengan GUI.
+
+2.  **Bangun Docker Image**:
+    Sebuah `Dockerfile` disediakan di root repositori ini yang akan mengkonfigurasi seluruh lingkungan proyek, termasuk instalasi ROS Noetic, semua dependensi paket, dan membangun workspace Catkin.
     Dari direktori root repositori (yang berisi `Dockerfile`):
     ```bash
-    docker build -t lss_program .
+    docker build -t usv_project_image .
     ```
-4.  **Jalankan Docker Container**:
-    Untuk menjalankan container dan mendapatkan shell interaktif:
+    Ganti `usv_project_image` dengan nama tag yang Anda inginkan untuk image tersebut. Proses build ini mungkin memakan waktu cukup lama saat pertama kali dijalankan.
+
+3.  **Jalankan Docker Container**:
+    Setelah image berhasil dibangun, Anda dapat menjalankan container:
     ```bash
     docker run -it --rm \
-        --net=host \ # Untuk kemudahan akses jaringan ROS
-        --env="DISPLAY" \ # Untuk GUI Forwarding
-        --env="QT_X11_NO_MITSHM=1" \ # Untuk GUI Forwarding
-        --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \ # Untuk GUI Forwarding
-        # Tambahkan volume mount untuk kode Anda jika ingin mengedit secara live
-        # --volume="${PWD}:/root/lss_ws/src/lss_program" \
-        lss_program bash
+        --name usv_container \
+        --net=host \
+        --env="DISPLAY" \
+        --env="QT_X11_NO_MITSHM=1" \
+        --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
+        usv_project_image bash
     ```
-    **Catatan untuk GUI (Rviz) di Docker**:
-    *   Anda perlu memastikan X server Anda di host mengizinkan koneksi dari container. Jalankan `xhost +local:docker` di terminal host Anda sebelum menjalankan container.
-    *   Perintah `docker run` di atas sudah menyertakan beberapa variabel lingkungan dan volume mount yang umum diperlukan untuk X11 forwarding.
+    Penjelasan perintah `docker run`:
+    *   `-it`: Menjalankan container dalam mode interaktif dengan pseudo-TTY.
+    *   `--rm`: Secara otomatis menghapus container ketika Anda keluar.
+    *   `--name usv_container`: Memberi nama pada container Anda (opsional).
+    *   `--net=host`: Menggunakan stack jaringan host. Ini adalah cara termudah untuk komunikasi ROS antara container dan host (misalnya, jika `roscore` berjalan di host atau sebaliknya). *Catatan keamanan: ini memberikan akses jaringan penuh kepada container.* Alternatif lain melibatkan pembuatan jaringan bridge kustom.
+    *   `--env="DISPLAY"` dan `--env="QT_X11_NO_MITSHM=1"`: Meneruskan variabel display untuk aplikasi GUI.
+    *   `--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`: Mem-mount soket X11 untuk dukungan GUI.
+    *   `usv_project_image`: Nama image yang Anda bangun pada langkah sebelumnya.
+    *   `bash`: Perintah default yang dijalankan saat container dimulai, memberi Anda sesi shell interaktif di dalam container. Workspace Catkin (`/catkin_ws/`) akan sudah dibangun dan disource.
+
+4.  **Di Dalam Container**:
+    Anda sekarang berada di dalam shell container, di direktori `/catkin_ws/src/usv_project_source/`. Lingkungan ROS dan workspace Catkin sudah di-source. Anda dapat menjalankan perintah ROS seperti:
+    *   `roscore`
+    *   `roslaunch <nama_paket> <nama_file_launch>.launch`
+    *   `rosrun <nama_paket> <nama_node>`
+    *   Menjalankan skrip data logger: `python3 ship_data_logger.py`
 
 ---
 
