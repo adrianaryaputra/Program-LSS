@@ -5,6 +5,6 @@
 
     <node name="ship_data_logger_node" type="ship_data_logger.py" pkg="lss_gcs_nala_gcs_bringup" output="screen" launch-prefix="bash -c 'cd $(find lss_gcs_nala_gcs_bringup)/../../../../ &amp;&amp; ./ship_data_logger.py'" >
         <param name="output_file" value="ship_data_logged.csv" /> <!-- File will be created in the CWD, which is the root -->
-        <param name="log_rate_hz" value="1.0" />
+        <param name="log_rate_hz" value="0.1" />
     </node>
 </launch>

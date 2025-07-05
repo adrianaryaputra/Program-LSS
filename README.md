@@ -161,7 +161,6 @@ Menggunakan Docker adalah cara yang paling direkomendasikan untuk menjalankan pr
     *   `roslaunch <nama_paket> <nama_file_launch>.launch`
     *   `rosrun <nama_paket> <nama_node>`
     *   Menjalankan skrip data logger: `python3 ship_data_logger.py`
-    *   Menjalankan unit test logger: `python3 -m unittest test_ship_data_logger.py`
 
 ---
 

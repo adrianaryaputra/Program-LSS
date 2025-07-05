@@ -169,7 +169,7 @@ def data_logger():
     rospy.init_node('ship_data_logger', anonymous=True)
 
     output_file_name = rospy.get_param('~output_file', 'ship_data_logged.csv')
-    log_rate_hz = rospy.get_param('~log_rate_hz', 1.0) # Default 1 Hz
+    log_rate_hz = rospy.get_param('~log_rate_hz', 0.1) # Default 1 Hz
 
     rospy.loginfo("Ship Data Logger started. Outputting to: %s at %s Hz", output_file_name, log_rate_hz)
 
