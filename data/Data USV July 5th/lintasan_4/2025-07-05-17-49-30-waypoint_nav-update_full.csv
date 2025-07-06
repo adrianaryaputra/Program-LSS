@@ -1,0 +1,617 @@
+time,.server_id,.seq_num,.markers
+2025/07/05/17:49:31.608721,/waypoint_nav_plugin,7,"[header: 
+  seq: 0
+  stamp: 
+    secs: 1751736961
+    nsecs: 735737040
+  frame_id: "map"
+pose: 
+  position: 
+    x: -44.607765197753906
+    y: -18.743732452392578
+    z: 0.0
+  orientation: 
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+name: "waypoint4"
+description: "Waypoint 4\nMission 1_in\nSpeed 0\nAct -1\nServo 0"
+scale: 2.0
+menu_entries: 
+  - 
+    id: 1
+    parent_id: 0
+    title: "Delete"
+    command: ''
+    command_type: 0
+  - 
+    id: 2
+    parent_id: 0
+    title: "Set Manual"
+    command: ''
+    command_type: 0
+controls: 
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 0.0
+    orientation_mode: 0
+    interaction_mode: 0
+    always_visible: True
+    markers: 
+      - 
+        header: 
+          seq: 0
+          stamp: 
+            secs: 0
+            nsecs:         0
+          frame_id: ''
+        ns: ''
+        id: 0
+        type: 3
+        action: 0
+        pose: 
+          position: 
+            x: 0.0
+            y: 0.0
+            z: 0.0
+          orientation: 
+            x: 0.0
+            y: 0.0
+            z: 0.0
+            w: 0.0
+        scale: 
+          x: 2.0
+          y: 2.0
+          z: 0.2
+        color: 
+          r: 0.0
+          g: 2.0
+          b: 1.0
+          a: 0.5
+        lifetime: 
+          secs: 0
+          nsecs:         0
+        frame_locked: False
+        points: []
+        colors: []
+        text: ''
+        mesh_resource: ''
+        mesh_use_embedded_materials: False
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 6
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 3
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: "menu_delete"
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 1
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: '', header: 
+  seq: 0
+  stamp: 
+    secs: 1751736958
+    nsecs: 539882723
+  frame_id: "map"
+pose: 
+  position: 
+    x: -34.553009033203125
+    y: -18.671085357666016
+    z: 0.0
+  orientation: 
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+name: "waypoint3"
+description: "Waypoint 3\nMission 1_in\nSpeed 0\nAct -1\nServo 0"
+scale: 2.0
+menu_entries: 
+  - 
+    id: 1
+    parent_id: 0
+    title: "Delete"
+    command: ''
+    command_type: 0
+  - 
+    id: 2
+    parent_id: 0
+    title: "Set Manual"
+    command: ''
+    command_type: 0
+controls: 
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 0.0
+    orientation_mode: 0
+    interaction_mode: 0
+    always_visible: True
+    markers: 
+      - 
+        header: 
+          seq: 0
+          stamp: 
+            secs: 0
+            nsecs:         0
+          frame_id: ''
+        ns: ''
+        id: 0
+        type: 3
+        action: 0
+        pose: 
+          position: 
+            x: 0.0
+            y: 0.0
+            z: 0.0
+          orientation: 
+            x: 0.0
+            y: 0.0
+            z: 0.0
+            w: 0.0
+        scale: 
+          x: 2.0
+          y: 2.0
+          z: 0.2
+        color: 
+          r: 0.0
+          g: 2.0
+          b: 1.0
+          a: 0.5
+        lifetime: 
+          secs: 0
+          nsecs:         0
+        frame_locked: False
+        points: []
+        colors: []
+        text: ''
+        mesh_resource: ''
+        mesh_use_embedded_materials: False
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 6
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 3
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: "menu_delete"
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 1
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: '', header: 
+  seq: 0
+  stamp: 
+    secs: 1751736963
+    nsecs: 230082565
+  frame_id: "map"
+pose: 
+  position: 
+    x: -45.01459884643555
+    y: -26.066858291625977
+    z: 0.0
+  orientation: 
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+name: "waypoint5"
+description: "Waypoint 5\nMission 1_in\nSpeed 0\nAct -1\nServo 0"
+scale: 2.0
+menu_entries: 
+  - 
+    id: 1
+    parent_id: 0
+    title: "Delete"
+    command: ''
+    command_type: 0
+  - 
+    id: 2
+    parent_id: 0
+    title: "Set Manual"
+    command: ''
+    command_type: 0
+controls: 
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 0.0
+    orientation_mode: 0
+    interaction_mode: 0
+    always_visible: True
+    markers: 
+      - 
+        header: 
+          seq: 0
+          stamp: 
+            secs: 0
+            nsecs:         0
+          frame_id: ''
+        ns: ''
+        id: 0
+        type: 3
+        action: 0
+        pose: 
+          position: 
+            x: 0.0
+            y: 0.0
+            z: 0.0
+          orientation: 
+            x: 0.0
+            y: 0.0
+            z: 0.0
+            w: 0.0
+        scale: 
+          x: 2.0
+          y: 2.0
+          z: 0.2
+        color: 
+          r: 0.0
+          g: 2.0
+          b: 1.0
+          a: 0.5
+        lifetime: 
+          secs: 0
+          nsecs:         0
+        frame_locked: False
+        points: []
+        colors: []
+        text: ''
+        mesh_resource: ''
+        mesh_use_embedded_materials: False
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 6
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 3
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: "menu_delete"
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 1
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: '', header: 
+  seq: 0
+  stamp: 
+    secs: 1751736954
+    nsecs: 971086209
+  frame_id: "map"
+pose: 
+  position: 
+    x: -34.930782318115234
+    y: -25.907028198242188
+    z: 0.0
+  orientation: 
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+name: "waypoint2"
+description: "Waypoint 2\nMission 1_in\nSpeed 0\nAct -1\nServo 0"
+scale: 2.0
+menu_entries: 
+  - 
+    id: 1
+    parent_id: 0
+    title: "Delete"
+    command: ''
+    command_type: 0
+  - 
+    id: 2
+    parent_id: 0
+    title: "Set Manual"
+    command: ''
+    command_type: 0
+controls: 
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 0.0
+    orientation_mode: 0
+    interaction_mode: 0
+    always_visible: True
+    markers: 
+      - 
+        header: 
+          seq: 0
+          stamp: 
+            secs: 0
+            nsecs:         0
+          frame_id: ''
+        ns: ''
+        id: 0
+        type: 3
+        action: 0
+        pose: 
+          position: 
+            x: 0.0
+            y: 0.0
+            z: 0.0
+          orientation: 
+            x: 0.0
+            y: 0.0
+            z: 0.0
+            w: 0.0
+        scale: 
+          x: 2.0
+          y: 2.0
+          z: 0.2
+        color: 
+          r: 0.0
+          g: 2.0
+          b: 1.0
+          a: 0.5
+        lifetime: 
+          secs: 0
+          nsecs:         0
+        frame_locked: False
+        points: []
+        colors: []
+        text: ''
+        mesh_resource: ''
+        mesh_use_embedded_materials: False
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 6
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 3
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: "menu_delete"
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 1
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: '', header: 
+  seq: 0
+  stamp: 
+    secs: 1751736951
+    nsecs:  30963515
+  frame_id: "map"
+pose: 
+  position: 
+    x: -44.89836120605469
+    y: -26.09592056274414
+    z: 0.0
+  orientation: 
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+name: "waypoint1"
+description: "Waypoint 1\nMission 1_in\nSpeed 0\nAct -1\nServo 0"
+scale: 2.0
+menu_entries: 
+  - 
+    id: 1
+    parent_id: 0
+    title: "Delete"
+    command: ''
+    command_type: 0
+  - 
+    id: 2
+    parent_id: 0
+    title: "Set Manual"
+    command: ''
+    command_type: 0
+controls: 
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 0.0
+    orientation_mode: 0
+    interaction_mode: 0
+    always_visible: True
+    markers: 
+      - 
+        header: 
+          seq: 0
+          stamp: 
+            secs: 0
+            nsecs:         0
+          frame_id: ''
+        ns: ''
+        id: 0
+        type: 3
+        action: 0
+        pose: 
+          position: 
+            x: 0.0
+            y: 0.0
+            z: 0.0
+          orientation: 
+            x: 0.0
+            y: 0.0
+            z: 0.0
+            w: 0.0
+        scale: 
+          x: 2.0
+          y: 2.0
+          z: 0.2
+        color: 
+          r: 0.0
+          g: 2.0
+          b: 1.0
+          a: 0.5
+        lifetime: 
+          secs: 0
+          nsecs:         0
+        frame_locked: False
+        points: []
+        colors: []
+        text: ''
+        mesh_resource: ''
+        mesh_use_embedded_materials: False
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 6
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: ''
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 3
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: ''
+  - 
+    name: "menu_delete"
+    orientation: 
+      x: 0.0
+      y: 0.707106781
+      z: 0.0
+      w: 0.707106781
+    orientation_mode: 0
+    interaction_mode: 1
+    always_visible: False
+    markers: []
+    independent_marker_orientation: False
+    description: '']"

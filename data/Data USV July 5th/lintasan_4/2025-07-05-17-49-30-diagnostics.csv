@@ -1,0 +1,7645 @@
+time,.header.seq,.header.stamp.secs,.header.stamp.nsecs,.header.frame_id,.status
+2025/07/05/17:49:32.175552,827,1751712572,174830686,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "53187"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "60"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8551209"
+  - 
+    key: "Tx total bytes:"
+    value: "353442"
+  - 
+    key: "Rx speed:"
+    value: "12249.000000"
+  - 
+    key: "Tx speed:"
+    value: "460.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "21"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.57"
+  - 
+    key: "EPV (m)"
+    value: "0.89", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1099"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.999949"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.5"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "10945"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999303"
+  - 
+    key: "Last RTT (ms)"
+    value: "14.044795"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.760102"
+  - 
+    key: "Last remote time (s)"
+    value: "2945.894981000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:33.674023,828,1751712573,673896040,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "53518"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "135"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8562509"
+  - 
+    key: "Tx total bytes:"
+    value: "353942"
+  - 
+    key: "Rx speed:"
+    value: "11300.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "22"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.56"
+  - 
+    key: "EPV (m)"
+    value: "0.87", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1101"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.037105"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "18.2"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "10960"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000748"
+  - 
+    key: "Last RTT (ms)"
+    value: "14.275142"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.759826"
+  - 
+    key: "Last remote time (s)"
+    value: "2947.395023000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:34.674038,829,1751712574,673916395,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "53742"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "103"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8570177"
+  - 
+    key: "Tx total bytes:"
+    value: "354262"
+  - 
+    key: "Rx speed:"
+    value: "7668.000000"
+  - 
+    key: "Tx speed:"
+    value: "320.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "22"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.56"
+  - 
+    key: "EPV (m)"
+    value: "0.87", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1102"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.000021"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "18.0"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "10970"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000285"
+  - 
+    key: "Last RTT (ms)"
+    value: "14.658977"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.759492"
+  - 
+    key: "Last remote time (s)"
+    value: "2948.395120000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:36.174255,830,1751712576,173984542,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "54107"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "212"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8582661"
+  - 
+    key: "Tx total bytes:"
+    value: "354722"
+  - 
+    key: "Rx speed:"
+    value: "12484.000000"
+  - 
+    key: "Tx speed:"
+    value: "460.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "22"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.56"
+  - 
+    key: "EPV (m)"
+    value: "0.87", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1103"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.999992"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.7"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "10985"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999928"
+  - 
+    key: "Last RTT (ms)"
+    value: "14.419243"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.758854"
+  - 
+    key: "Last remote time (s)"
+    value: "2949.895116000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:37.174542,831,1751712577,174146071,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "54329"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "178"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8590317"
+  - 
+    key: "Tx total bytes:"
+    value: "355042"
+  - 
+    key: "Rx speed:"
+    value: "7656.000000"
+  - 
+    key: "Tx speed:"
+    value: "320.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "22"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.56"
+  - 
+    key: "EPV (m)"
+    value: "0.87", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1104"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.000042"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.8"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "10995"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000486"
+  - 
+    key: "Last RTT (ms)"
+    value: "14.595863"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.758423"
+  - 
+    key: "Last remote time (s)"
+    value: "2950.895461000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:38.674299,832,1751712578,673959764,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "54668"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "5"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8601895"
+  - 
+    key: "Tx total bytes:"
+    value: "355542"
+  - 
+    key: "Rx speed:"
+    value: "11578.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.61"
+  - 
+    key: "EPV (m)"
+    value: "1.02", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1106"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.999998"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.6"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11010"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999964"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.478369"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.757646"
+  - 
+    key: "Last remote time (s)"
+    value: "2952.395106000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:40.174018,833,1751712580,173893777,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "55027"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "108"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8614147"
+  - 
+    key: "Tx total bytes:"
+    value: "356028"
+  - 
+    key: "Rx speed:"
+    value: "12252.000000"
+  - 
+    key: "Tx speed:"
+    value: "486.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "21"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.60"
+  - 
+    key: "EPV (m)"
+    value: "0.99", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1107"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.962981"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.8"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11025"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000201"
+  - 
+    key: "Last RTT (ms)"
+    value: "14.625156"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.757038"
+  - 
+    key: "Last remote time (s)"
+    value: "2953.895304000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:41.674150,834,1751712581,673940705,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "55377"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "202"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8626127"
+  - 
+    key: "Tx total bytes:"
+    value: "356528"
+  - 
+    key: "Rx speed:"
+    value: "11980.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "21"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.60"
+  - 
+    key: "EPV (m)"
+    value: "0.99", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1109"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.037047"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "18.0"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11040"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000079"
+  - 
+    key: "Last RTT (ms)"
+    value: "14.348274"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.756108"
+  - 
+    key: "Last remote time (s)"
+    value: "2955.394514000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:42.675040,835,1751712582,674664389,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "55603"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "172"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8633872"
+  - 
+    key: "Tx total bytes:"
+    value: "356848"
+  - 
+    key: "Rx speed:"
+    value: "7745.000000"
+  - 
+    key: "Tx speed:"
+    value: "320.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "21"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.60"
+  - 
+    key: "EPV (m)"
+    value: "0.99", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1110"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.999955"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.9"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11050"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999468"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.793397"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.755191"
+  - 
+    key: "Last remote time (s)"
+    value: "2956.395286000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:44.175745,836,1751712584,174826097,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "55940"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "253"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8645406"
+  - 
+    key: "Tx total bytes:"
+    value: "357308"
+  - 
+    key: "Rx speed:"
+    value: "11534.000000"
+  - 
+    key: "Tx speed:"
+    value: "460.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "22"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.56"
+  - 
+    key: "EPV (m)"
+    value: "0.87", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1111"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.962944"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.4"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11065"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999636"
+  - 
+    key: "Last RTT (ms)"
+    value: "14.667874"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.754041"
+  - 
+    key: "Last remote time (s)"
+    value: "2957.895100000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:45.675453,837,1751712585,674807090,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "56286"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "87"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8657223"
+  - 
+    key: "Tx total bytes:"
+    value: "357808"
+  - 
+    key: "Rx speed:"
+    value: "11817.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.62"
+  - 
+    key: "EPV (m)"
+    value: "1.04", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1113"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.037037"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.6"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11080"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000019"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.828344"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.752469"
+  - 
+    key: "Last remote time (s)"
+    value: "2959.395452000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:47.174369,838,1751712587,174026282,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "56633"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "178"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8669110"
+  - 
+    key: "Tx total bytes:"
+    value: "358268"
+  - 
+    key: "Rx speed:"
+    value: "11887.000000"
+  - 
+    key: "Tx speed:"
+    value: "460.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "21"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.60"
+  - 
+    key: "EPV (m)"
+    value: "0.99", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1114"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.962956"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.3"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11095"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999907"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.419444"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.750885"
+  - 
+    key: "Last remote time (s)"
+    value: "2960.894846000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:48.675343,839,1751712588,674811761,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "56963"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "252"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8680408"
+  - 
+    key: "Tx total bytes:"
+    value: "358768"
+  - 
+    key: "Rx speed:"
+    value: "11298.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.62"
+  - 
+    key: "EPV (m)"
+    value: "1.04", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1116"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.999938"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.4"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11110"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999373"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.648428"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.749332"
+  - 
+    key: "Last remote time (s)"
+    value: "2962.395458000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:50.173952,840,1751712590,173808572,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "57311"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "88"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8692271"
+  - 
+    key: "Tx total bytes:"
+    value: "359254"
+  - 
+    key: "Rx speed:"
+    value: "11863.000000"
+  - 
+    key: "Tx speed:"
+    value: "486.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "21"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.60"
+  - 
+    key: "EPV (m)"
+    value: "0.99", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1117"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.000009"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.4"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11125"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000110"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.576865"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.747661"
+  - 
+    key: "Last remote time (s)"
+    value: "2963.894591000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:51.675802,841,1751712591,674827710,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "57666"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "187"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8704503"
+  - 
+    key: "Tx total bytes:"
+    value: "359754"
+  - 
+    key: "Rx speed:"
+    value: "12232.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "21"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.60"
+  - 
+    key: "EPV (m)"
+    value: "0.99", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1119"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.034454"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.3"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11140"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999576"
+  - 
+    key: "Last RTT (ms)"
+    value: "14.709353"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.745988"
+  - 
+    key: "Last remote time (s)"
+    value: "2965.395458000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:53.174074,842,1751712593,173906501,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "58013"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "22"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8716341"
+  - 
+    key: "Tx total bytes:"
+    value: "360214"
+  - 
+    key: "Rx speed:"
+    value: "11838.000000"
+  - 
+    key: "Tx speed:"
+    value: "460.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "21"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.58"
+  - 
+    key: "EPV (m)"
+    value: "0.90", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1120"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.965520"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.0"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11155"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000031"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.866989"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.744086"
+  - 
+    key: "Last remote time (s)"
+    value: "2966.894543000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:54.174706,843,1751712594,174325977,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "58236"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "245"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8723953"
+  - 
+    key: "Tx total bytes:"
+    value: "360534"
+  - 
+    key: "Rx speed:"
+    value: "7612.000000"
+  - 
+    key: "Tx speed:"
+    value: "320.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "21"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.60"
+  - 
+    key: "EPV (m)"
+    value: "0.99", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1121"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.999969"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.0"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11165"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999688"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.282735"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.743057"
+  - 
+    key: "Last remote time (s)"
+    value: "2967.895246000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:55.674684,844,1751712595,674200146,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "58577"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "74"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8735611"
+  - 
+    key: "Tx total bytes:"
+    value: "361034"
+  - 
+    key: "Rx speed:"
+    value: "11658.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "21"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.60"
+  - 
+    key: "EPV (m)"
+    value: "0.99", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1123"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.999984"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.9"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11180"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999811"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.814565"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.741019"
+  - 
+    key: "Last remote time (s)"
+    value: "2969.395456000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:56.674675,845,1751712596,674242400,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "58802"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "43"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8743386"
+  - 
+    key: "Tx total bytes:"
+    value: "361354"
+  - 
+    key: "Rx speed:"
+    value: "7775.000000"
+  - 
+    key: "Tx speed:"
+    value: "320.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "21"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.60"
+  - 
+    key: "EPV (m)"
+    value: "0.99", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1124"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.000019"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 0
+name: "mavros: System"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0330812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Ok"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.5"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11190"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000287"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.335449"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.739797"
+  - 
+    key: "Last remote time (s)"
+    value: "2970.395075000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:58.176362,846,1751712598,175131335,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "59162"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "147"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8755699"
+  - 
+    key: "Tx total bytes:"
+    value: "361814"
+  - 
+    key: "Rx speed:"
+    value: "12313.000000"
+  - 
+    key: "Tx speed:"
+    value: "460.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.63"
+  - 
+    key: "EPV (m)"
+    value: "1.05", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1125"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.999965"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.5"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11205"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999774"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.433821"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.737802"
+  - 
+    key: "Last remote time (s)"
+    value: "2971.895289000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:49:59.676280,847,1751712599,674821609,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "59503"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "232"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8767370"
+  - 
+    key: "Tx total bytes:"
+    value: "362340"
+  - 
+    key: "Rx speed:"
+    value: "11671.000000"
+  - 
+    key: "Tx speed:"
+    value: "526.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.63"
+  - 
+    key: "EPV (m)"
+    value: "1.05", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1127"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.999998"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.6"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11220"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999982"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.297001"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.736007"
+  - 
+    key: "Last remote time (s)"
+    value: "2973.395121000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:01.175565,848,1751712601,174730764,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "59854"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "71"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8779362"
+  - 
+    key: "Tx total bytes:"
+    value: "362800"
+  - 
+    key: "Rx speed:"
+    value: "11992.000000"
+  - 
+    key: "Tx speed:"
+    value: "460.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.63"
+  - 
+    key: "EPV (m)"
+    value: "1.05", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1128"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.999965"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.3"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11235"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999512"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.785245"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.734194"
+  - 
+    key: "Last remote time (s)"
+    value: "2974.895466000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:02.175363,849,1751712602,174828448,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "60077"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "38"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8787047"
+  - 
+    key: "Tx total bytes:"
+    value: "363120"
+  - 
+    key: "Rx speed:"
+    value: "7685.000000"
+  - 
+    key: "Tx speed:"
+    value: "320.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "19"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.65"
+  - 
+    key: "EPV (m)"
+    value: "1.11", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1129"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.962971"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.2"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11245"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999999"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.756333"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.732883"
+  - 
+    key: "Last remote time (s)"
+    value: "2975.895117000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:03.676467,850,1751712603,674893324,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "60420"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "125"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8798781"
+  - 
+    key: "Tx total bytes:"
+    value: "363620"
+  - 
+    key: "Rx speed:"
+    value: "11734.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "19"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.65"
+  - 
+    key: "EPV (m)"
+    value: "1.11", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1131"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.036970"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.5"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11260"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999229"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.521049"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.731091"
+  - 
+    key: "Last remote time (s)"
+    value: "2977.395114000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:05.174132,851,1751712605,173922843,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "60768"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "217"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8810687"
+  - 
+    key: "Tx total bytes:"
+    value: "364080"
+  - 
+    key: "Rx speed:"
+    value: "11906.000000"
+  - 
+    key: "Tx speed:"
+    value: "460.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.63"
+  - 
+    key: "EPV (m)"
+    value: "1.05", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1132"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.963008"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.6"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11275"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000618"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.574317"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.729288"
+  - 
+    key: "Last remote time (s)"
+    value: "2978.894581000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:06.174983,852,1751712606,174521138,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "60999"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "192"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8818603"
+  - 
+    key: "Tx total bytes:"
+    value: "364400"
+  - 
+    key: "Rx speed:"
+    value: "7916.000000"
+  - 
+    key: "Tx speed:"
+    value: "320.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.63"
+  - 
+    key: "EPV (m)"
+    value: "1.05", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1133"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.999961"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.6"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11285"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999539"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.817902"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.728042"
+  - 
+    key: "Last remote time (s)"
+    value: "2979.895122000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:07.675865,853,1751712607,674805602,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "61333"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "14"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8830063"
+  - 
+    key: "Tx total bytes:"
+    value: "364900"
+  - 
+    key: "Rx speed:"
+    value: "11460.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.63"
+  - 
+    key: "EPV (m)"
+    value: "1.05", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1135"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.037008"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.7"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11300"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999678"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.832044"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.725800"
+  - 
+    key: "Last remote time (s)"
+    value: "2981.395019000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:09.173877,854,1751712609,173789428,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "61660"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "85"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8841237"
+  - 
+    key: "Tx total bytes:"
+    value: "365360"
+  - 
+    key: "Rx speed:"
+    value: "11174.000000"
+  - 
+    key: "Tx speed:"
+    value: "460.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.63"
+  - 
+    key: "EPV (m)"
+    value: "1.05", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1136"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.962985"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.0"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11315"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000286"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.523585"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.723707"
+  - 
+    key: "Last remote time (s)"
+    value: "2982.894775000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:10.175581,855,1751712610,174732187,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "61892"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "61"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8849165"
+  - 
+    key: "Tx total bytes:"
+    value: "365706"
+  - 
+    key: "Rx speed:"
+    value: "7928.000000"
+  - 
+    key: "Tx speed:"
+    value: "346.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "19"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.65"
+  - 
+    key: "EPV (m)"
+    value: "1.11", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1137"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.962948"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.6"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11325"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999663"
+  - 
+    key: "Last RTT (ms)"
+    value: "13.547731"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.721915"
+  - 
+    key: "Last remote time (s)"
+    value: "2983.895100000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:11.674733,856,1751712611,674211600,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "62235"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "148"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8860898"
+  - 
+    key: "Tx total bytes:"
+    value: "366206"
+  - 
+    key: "Rx speed:"
+    value: "11733.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "19"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.65"
+  - 
+    key: "EPV (m)"
+    value: "1.07", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1139"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.037095"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.6"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11340"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000645"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.323225"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.719194"
+  - 
+    key: "Last remote time (s)"
+    value: "2985.394493000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:13.173861,857,1751712613,173789737,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "62604"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "5"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8873524"
+  - 
+    key: "Tx total bytes:"
+    value: "366666"
+  - 
+    key: "Rx speed:"
+    value: "12626.000000"
+  - 
+    key: "Tx speed:"
+    value: "460.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "19"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.65"
+  - 
+    key: "EPV (m)"
+    value: "1.07", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1140"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.963017"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.2"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11355"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000731"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.546195"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.716102"
+  - 
+    key: "Last remote time (s)"
+    value: "2986.894561000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:14.175118,858,1751712614,174605327,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "62832"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "233"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8881334"
+  - 
+    key: "Tx total bytes:"
+    value: "366986"
+  - 
+    key: "Rx speed:"
+    value: "7810.000000"
+  - 
+    key: "Tx speed:"
+    value: "320.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "19"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.65"
+  - 
+    key: "EPV (m)"
+    value: "1.07", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1141"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.000004"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.1"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11365"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000147"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.221745"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.714252"
+  - 
+    key: "Last remote time (s)"
+    value: "2987.895267000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:15.674492,859,1751712615,674087748,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "63153"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "42"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8892309"
+  - 
+    key: "Tx total bytes:"
+    value: "367486"
+  - 
+    key: "Rx speed:"
+    value: "10975.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.61"
+  - 
+    key: "EPV (m)"
+    value: "0.95", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1143"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.037082"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.4"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11380"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000525"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.441900"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.711327"
+  - 
+    key: "Last remote time (s)"
+    value: "2989.394482000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:17.174485,860,1751712617,174129540,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "63533"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "166"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8905336"
+  - 
+    key: "Tx total bytes:"
+    value: "367946"
+  - 
+    key: "Rx speed:"
+    value: "13027.000000"
+  - 
+    key: "Tx speed:"
+    value: "460.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.61"
+  - 
+    key: "EPV (m)"
+    value: "0.95", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1144"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.963006"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.2"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11395"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000549"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.265987"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.708390"
+  - 
+    key: "Last remote time (s)"
+    value: "2990.895123000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:18.674188,861,1751712618,673978234,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "63875"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "252"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8917015"
+  - 
+    key: "Tx total bytes:"
+    value: "368446"
+  - 
+    key: "Rx speed:"
+    value: "11679.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.61"
+  - 
+    key: "EPV (m)"
+    value: "0.95", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1146"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.037033"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.7"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11410"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999962"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.577555"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.705429"
+  - 
+    key: "Last remote time (s)"
+    value: "2992.395330000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283147097", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:20.174289,862,1751712620,173902575,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "64224"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "89"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8928920"
+  - 
+    key: "Tx total bytes:"
+    value: "368932"
+  - 
+    key: "Rx speed:"
+    value: "11905.000000"
+  - 
+    key: "Tx speed:"
+    value: "486.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.61"
+  - 
+    key: "EPV (m)"
+    value: "0.95", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1147"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.000036"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.5"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11425"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000438"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.081463"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.702122"
+  - 
+    key: "Last remote time (s)"
+    value: "2993.894783000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283107042", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:21.674222,863,1751712621,673947031,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "64577"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "186"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8940995"
+  - 
+    key: "Tx total bytes:"
+    value: "369432"
+  - 
+    key: "Rx speed:"
+    value: "12075.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.61"
+  - 
+    key: "EPV (m)"
+    value: "0.95", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1149"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.000054"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.7"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11440"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000582"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.354174"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.699270"
+  - 
+    key: "Last remote time (s)"
+    value: "2995.395283000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283107042", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:23.175965,864,1751712623,174711860,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "64933"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "30"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8953214"
+  - 
+    key: "Tx total bytes:"
+    value: "369892"
+  - 
+    key: "Rx speed:"
+    value: "12219.000000"
+  - 
+    key: "Tx speed:"
+    value: "460.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "20"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.61"
+  - 
+    key: "EPV (m)"
+    value: "0.95", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1150"
+  - 
+    key: "Frequency (Hz)"
+    value: "0.999955"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.5"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11455"
+  - 
+    key: "Frequency (Hz)"
+    value: "9.999384"
+  - 
+    key: "Last RTT (ms)"
+    value: "11.997513"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.696377"
+  - 
+    key: "Last remote time (s)"
+    value: "2996.895273000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283107042", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"
+2025/07/05/17:50:24.674859,865,1751712624,674411784,,"[level: 0
+name: "mavros: FCU connection"
+message: "connected"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Received packets:"
+    value: "65254"
+  - 
+    key: "Dropped packets:"
+    value: "0"
+  - 
+    key: "Buffer overruns:"
+    value: "0"
+  - 
+    key: "Parse errors:"
+    value: "0"
+  - 
+    key: "Rx sequence number:"
+    value: "95"
+  - 
+    key: "Tx sequence number:"
+    value: "0"
+  - 
+    key: "Rx total bytes:"
+    value: "8964180"
+  - 
+    key: "Tx total bytes:"
+    value: "370392"
+  - 
+    key: "Rx speed:"
+    value: "10966.000000"
+  - 
+    key: "Tx speed:"
+    value: "500.000000", level: 0
+name: "mavros: GPS"
+message: "3D fix"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Satellites visible"
+    value: "19"
+  - 
+    key: "Fix type"
+    value: "3"
+  - 
+    key: "EPH (m)"
+    value: "0.65"
+  - 
+    key: "EPV (m)"
+    value: "1.08", level: 1
+name: "mavros: Mount"
+message: "Can not diagnose in this targeting mode"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Mode"
+    value: "255", level: 0
+name: "mavros: Heartbeat"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Heartbeats since startup"
+    value: "1152"
+  - 
+    key: "Frequency (Hz)"
+    value: "1.034492"
+  - 
+    key: "Vehicle type"
+    value: "Surface vessel"
+  - 
+    key: "Autopilot type"
+    value: "ArduPilot"
+  - 
+    key: "Mode"
+    value: "HOLD"
+  - 
+    key: "System status"
+    value: "Critical", level: 2
+name: "mavros: System"
+message: "Sensor health"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Sensor present"
+    value: "0x1330DC2F"
+  - 
+    key: "Sensor enabled"
+    value: "0x0320802F"
+  - 
+    key: "Sensor health"
+    value: "0x0230812F"
+  - 
+    key: "3D gyro"
+    value: "Ok"
+  - 
+    key: "3D accelerometer"
+    value: "Ok"
+  - 
+    key: "3D magnetometer"
+    value: "Ok"
+  - 
+    key: "absolute pressure"
+    value: "Ok"
+  - 
+    key: "GPS"
+    value: "Ok"
+  - 
+    key: "motor outputs / control"
+    value: "Ok"
+  - 
+    key: "AHRS subsystem health"
+    value: "Ok"
+  - 
+    key: "Logging"
+    value: "Fail"
+  - 
+    key: "Battery"
+    value: "Ok"
+  - 
+    key: "CPU Load (%)"
+    value: "17.3"
+  - 
+    key: "Drop rate (%)"
+    value: "0.0"
+  - 
+    key: "Errors comm"
+    value: "0"
+  - 
+    key: "Errors count #1"
+    value: "0"
+  - 
+    key: "Errors count #2"
+    value: "0"
+  - 
+    key: "Errors count #3"
+    value: "0"
+  - 
+    key: "Errors count #4"
+    value: "0", level: 1
+name: "mavros: Battery"
+message: "Low voltage"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Voltage"
+    value: "0.00"
+  - 
+    key: "Current"
+    value: "-0.0"
+  - 
+    key: "Remaining"
+    value: "-1.0", level: 0
+name: "mavros: Time Sync"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Timesyncs since startup"
+    value: "11470"
+  - 
+    key: "Frequency (Hz)"
+    value: "10.000210"
+  - 
+    key: "Last RTT (ms)"
+    value: "12.634210"
+  - 
+    key: "Mean RTT (ms)"
+    value: "14.693504"
+  - 
+    key: "Last remote time (s)"
+    value: "2998.394484000"
+  - 
+    key: "Estimated time offset (s)"
+    value: "1751709626.283107042", level: 0
+name: "mavros: APM Memory"
+message: "Normal"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Free memory (B)"
+    value: "72864"
+  - 
+    key: "Heap top"
+    value: "0x0000", level: 2
+name: "mavros: APM Hardware"
+message: "Not initialised"
+hardware_id: "/dev/ttyACM0:57600"
+values: 
+  - 
+    key: "Core voltage"
+    value: "-1.000000"
+  - 
+    key: "I2C errors"
+    value: "0"]"

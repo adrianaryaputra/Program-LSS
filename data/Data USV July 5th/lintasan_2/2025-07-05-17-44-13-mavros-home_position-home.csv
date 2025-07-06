@@ -1,0 +1,2 @@
+time,.header.seq,.header.stamp.secs,.header.stamp.nsecs,.header.frame_id,.geo.latitude,.geo.longitude,.geo.altitude,.position.x,.position.y,.position.z,.orientation.x,.orientation.y,.orientation.z,.orientation.w,.approach.x,.approach.y,.approach.z
+2025/07/05/17:44:13.305069,0,1751711487,710029895,,-7.2871207,112.7959331,57.225085236100284,0.0,0.0,2.2300000190734863,nan,nan,nan,nan,0.0,0.0,-0.0

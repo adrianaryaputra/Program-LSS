@@ -1,0 +1,82 @@
+time,.current_seq,.waypoints
+2025/07/05/17:47:55.774916,0,"[frame: 0
+command: 16
+is_current: False
+autocontinue: True
+param1: 0.0
+param2: 0.0
+param3: 0.0
+param4: 0.0
+x_lat: -7.2871207
+y_long: 112.7959331
+z_alt: 27.969999313354492, frame: 3
+command: 16
+is_current: False
+autocontinue: True
+param1: 0.0
+param2: 0.0
+param3: 0.0
+param4: 0.0
+x_lat: -7.2862978
+y_long: 112.7958463
+z_alt: 100.0, frame: 3
+command: 16
+is_current: False
+autocontinue: True
+param1: 0.0
+param2: 0.0
+param3: 0.0
+param4: 0.0
+x_lat: -7.2863777
+y_long: 112.7958463
+z_alt: 100.0, frame: 3
+command: 16
+is_current: False
+autocontinue: True
+param1: 0.0
+param2: 0.0
+param3: 0.0
+param4: 0.0
+x_lat: -7.2864349
+y_long: 112.7958906
+z_alt: 100.0, frame: 3
+command: 16
+is_current: False
+autocontinue: True
+param1: 0.0
+param2: 0.0
+param3: 0.0
+param4: 0.0
+x_lat: -7.2864694
+y_long: 112.7959616
+z_alt: 100.0, frame: 3
+command: 16
+is_current: False
+autocontinue: True
+param1: 0.0
+param2: 0.0
+param3: 0.0
+param4: 0.0
+x_lat: -7.2864588
+y_long: 112.7960421
+z_alt: 100.0, frame: 3
+command: 16
+is_current: False
+autocontinue: True
+param1: 0.0
+param2: 0.0
+param3: 0.0
+param4: 0.0
+x_lat: -7.2864428
+y_long: 112.7961132
+z_alt: 100.0, frame: 3
+command: 16
+is_current: False
+autocontinue: True
+param1: 0.0
+param2: 0.0
+param3: 0.0
+param4: 0.0
+x_lat: -7.2863657
+y_long: 112.7961427
+z_alt: 100.0]"
